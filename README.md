@@ -13,6 +13,4 @@ false otherwise
 1 -> false
 4 -> true
 100 -> false 
-104 -> true
-110 -> false
 400 -> true

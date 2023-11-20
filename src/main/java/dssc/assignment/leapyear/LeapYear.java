@@ -6,7 +6,9 @@ public class LeapYear {
             System.out.println("False");
         else if(i==4)
             System.out.println("True");
-        else
+        else if(i==100)
             System.out.println("False");
+        else
+            System.out.println("True");
     }
 }
