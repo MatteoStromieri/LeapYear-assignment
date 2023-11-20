@@ -19,4 +19,9 @@ public class ComputeResult {
         new LeapYear().print(1);
         assertEquals("False",outputStreamCaptor.toString().replaceAll("[\\n\\r]", ""));
     }
+    @Test
+    void given_4_prints_true(){
+        new LeapYear().print(4);
+        assertEquals("True",outputStreamCaptor.toString().replaceAll("[\\n\\r]", ""));
+    }
 }

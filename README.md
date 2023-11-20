@@ -10,7 +10,6 @@ So we want a function that receives an intager (k) as input and prints true if
 - (k % 100 !== 0) or (k % 400 == 0)
 false otherwise
 # My tests
-0 -> false
 1 -> false
 4 -> true
 100 -> false 
